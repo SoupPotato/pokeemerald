@@ -4223,10 +4223,10 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 55,
         .baseAttack    = 35,
-        .baseDefense   = 50,
+        .baseDefense   = 40,
         .baseSpeed     = 85,
-        .baseSpAttack  = 55,
-        .baseSpDefense = 110,
+        .baseSpAttack  = 85,
+        .baseSpDefense = 100,
         .type1 = TYPE_BUG,
         .type2 = TYPE_FLYING,
         .catchRate = 90,
@@ -5534,12 +5534,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SLUGMA] =
     {
-        .baseHP        = 40,
+        .baseHP        = 60,
         .baseAttack    = 40,
-        .baseDefense   = 40,
+        .baseDefense   = 60,
         .baseSpeed     = 20,
         .baseSpAttack  = 70,
-        .baseSpDefense = 40,
+        .baseSpDefense = 60,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FIRE,
         .catchRate = 190,
@@ -5559,7 +5559,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MAGCARGO] =
     {
-        .baseHP        = 60,
+        .baseHP        = 90,
         .baseAttack    = 50,
         .baseDefense   = 120,
         .baseSpeed     = 30,
