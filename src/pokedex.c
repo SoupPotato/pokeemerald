@@ -4271,6 +4271,7 @@ s8 GetSetPokedexFlag(u16 nationalDexNo, u8 caseID)
         gSaveBlock1Ptr->dexCaught[index] |= mask;
         break;
     }
+	//return TRUE; //re-enable to test national dex
 
     return retVal;
 }
