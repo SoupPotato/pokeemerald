@@ -8570,23 +8570,23 @@ Move_ELECTRIFY::
 	playsewithpan SE_M_THUNDERBOLT2, SOUND_PAN_TARGET
 	launchtemplate gElectrifyYellowRingTemplate 0x3 0x6 0x0 0x0 0x1 0x0 0x1f 0x8
 	launchtask AnimTask_ShakeMon 0x5 0x5 ANIM_TARGET 0x4 0x0 0x6 0x1
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x5 0x0 0x5 0x0, ANIM_TARGET
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x5 0x0 0x5 0x0
 	delay 0x1
 	launchtemplate gElectrifyYellowRingTemplate 0x3 0x6 0x0 0x0 0x1 0x0 0x1f 0x8
 	delay 0x1
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfffb 0xa 0x5 0x1, ANIM_TARGET
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfffb 0xa 0x5 0x1
 	launchtemplate gElectrifyYellowRingTemplate 0x3 0x6 0x0 0x0 0x1 0x0 0x1f 0x8
 	delay 0x1
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xf 0x14 0x5 0x2, ANIM_TARGET
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfff1 0xfff6 0x5 0x0, ANIM_TARGET
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xf 0x14 0x5 0x2
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfff1 0xfff6 0x5 0x0
 	delay 0x2
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x19 0x0 0x5 0x1, ANIM_TARGET
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x19 0x0 0x5 0x1
 	delay 0x2
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfff8 0x8 0x5 0x2, ANIM_TARGET
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfff8 0x8 0x5 0x2
 	delay 0x2
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x2 0xfff8 0x5 0x0, ANIM_TARGET
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x2 0xfff8 0x5 0x0
 	delay 0x2
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xffec 0xf 0x5 0x1, ANIM_TARGET
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xffec 0xf 0x5 0x1
 	waitforvisualfinish
 	launchtask AnimTask_BlendBattleAnimPal 0xA 0x5 ANIM_PAL_DEF 0x2 0xB 0x0 0x039B
 	launchtask AnimTask_BlendBattleAnimPal 0xa 0x5 ANIM_PAL_BG 0x1 0x3 0x0 0x039B
@@ -9104,20 +9104,20 @@ Move_EERIE_IMPULSE::
 	waitforvisualfinish
 	playsewithpan SE_M_THUNDERBOLT2, SOUND_PAN_ATTACKER
 	launchtemplate gEerieImpulseImpactTemplate 0x2 0x6 0x0 0xfffb 0x1 0x0 0x20 0x10
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x5 0x0 0x5 0x0, ANIM_TARGET
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfffb 0xa 0x5 0x1, ANIM_TARGET
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x5 0x0 0x5 0x0
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfffb 0xa 0x5 0x1
 	delay 0x7
 	launchtemplate gEerieImpulseImpactTemplate 0x2 0x6 0xfff1 0xa 0x1 0x0 0x20 0x10
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xf 0x14 0x5 0x2, ANIM_TARGET
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfff1 0xfff6 0x5 0x0, ANIM_TARGET
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xf 0x14 0x5 0x2
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfff1 0xfff6 0x5 0x0
 	delay 0x7
 	launchtemplate gEerieImpulseImpactTemplate 0x2 0x6 0xfff1 0xfff1 0x1 0x0 0x20 0x10
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x19 0x0 0x5 0x1, ANIM_TARGET
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfff8 0x8 0x5 0x2, ANIM_TARGET
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x19 0x0 0x5 0x1
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xfff8 0x8 0x5 0x2
 	delay 0x7
 	launchtemplate gEerieImpulseImpactTemplate 0x2 0x6 0xa 0xfffb 0x1 0x0 0x20 0x10
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x2 0xfff8 0x5 0x0, ANIM_TARGET
-	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xffec 0xf 0x5 0x1, ANIM_TARGET
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0x2 0xfff8 0x5 0x0
+	launchtemplate gElectricitySpriteTemplate 0x82, 0x4, 0xffec 0xf 0x5 0x1
 	waitforvisualfinish
 	clearmonbg ANIM_DEF_PARTNER
 	end
@@ -19870,6 +19870,50 @@ Move_WATER_GUN:
 	clearmonbg ANIM_DEF_PARTNER
 	blendoff
 	end
+	
+TESTMove_WATER_GUN:
+	loadspritegfx ANIM_TAG_WATER_ORB
+	loadspritegfx ANIM_TAG_WATER_IMPACT
+	monbg ANIM_DEF_PARTNER
+	monbgprio_28 ANIM_TARGET
+	setalpha 12, 8
+	call WaterGunBeam
+	createsprite gWaterHitSplatSpriteTemplate, ANIM_TARGET, 2, 0, 0, ANIM_TARGET, 0
+	call WaterGunBeam
+	createvisualtask AnimTask_ShakeMon2, 5, ANIM_TARGET, 1, 0, 8, 1
+	createsprite gWaterHitSplatSpriteTemplate, ANIM_TARGET, 2, 0, 0, ANIM_TARGET, 0
+	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
+	call WaterGunBeam
+	createvisualtask AnimTask_ShakeMon2, 5, ANIM_TARGET, 1, 0, 8, 1
+	createsprite gWaterHitSplatSpriteTemplate, ANIM_TARGET, 2, 0, 0, ANIM_TARGET, 0
+	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
+	call WaterGunBeam
+	createvisualtask AnimTask_ShakeMon2, 5, ANIM_TARGET, 1, 0, 8, 1
+	createsprite gWaterHitSplatSpriteTemplate, ANIM_TARGET, 2, 0, 0, ANIM_TARGET, 0
+	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
+	call WaterGunBeam
+	createvisualtask AnimTask_ShakeMon2, 5, ANIM_TARGET, 1, 0, 8, 1
+	createsprite gWaterHitSplatSpriteTemplate, ANIM_TARGET, 2, 0, 0, ANIM_TARGET, 0
+	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
+	call WaterGunBeam
+	createvisualtask AnimTask_ShakeMon2, 5, ANIM_TARGET, 1, 0, 8, 1
+	createsprite gWaterHitSplatSpriteTemplate, ANIM_TARGET, 2, 0, 0, ANIM_TARGET, 0
+	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
+	waitforvisualfinish
+	clearmonbg ANIM_DEF_PARTNER
+	blendoff
+	end
+WaterGunBeam:
+	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 0, 15, 257
+	delay 1
+	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 0, 15, 257
+	delay 1
+	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 0, 15, 257
+	delay 1
+	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 0, 15, 257
+	delay 1
+	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 0, 15, 257
+	return	
 
 Move_CRABHAMMER:
 	loadspritegfx ANIM_TAG_ICE_CRYSTALS
