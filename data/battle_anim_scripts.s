@@ -19904,15 +19904,15 @@ TESTMove_WATER_GUN:
 	blendoff
 	end
 WaterGunBeam:
-	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 0, 15, 257
+	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 10, 15, 257
 	delay 1
-	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 0, 15, 257
+	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 10, 15, 257
 	delay 1
-	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 0, 15, 257
+	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 10, 15, 257
 	delay 1
-	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 0, 15, 257
+	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 10, 15, 257
 	delay 1
-	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 0, 15, 257
+	createsprite gHydroCannonBeamSpriteTemplate, ANIM_TARGET, 2, 10, 10, 0, 10, 15, 257
 	return	
 
 Move_CRABHAMMER:
